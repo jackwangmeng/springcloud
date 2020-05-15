@@ -2,6 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
     <parent>
         <artifactId>cloud</artifactId>
         <groupId>com.wm.springcloud</groupId>
@@ -12,6 +13,12 @@
     <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
+
+        <dependency><!-- 引入自己定义的api通用包，可以使用Payment支付Entity -->
+            <groupId>com.wm.springcloud</groupId>
+            <artifactId>cloud-api-commons</artifactId>
+            <version>${project.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -45,9 +52,9 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
+            <groupId> org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
+            <version>2.2.7.RELEASE</version>
             <optional>true</optional>
         </dependency>
 
@@ -62,6 +69,24 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+        </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.2.7.RELEASE</version>
+                <!-- 自动重启 -->
+                <configuration>
+                    <fork>true</fork>
+                    <!-- 如果没有该项配置，肯呢个devtools不会起作用，即应用不会restart -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

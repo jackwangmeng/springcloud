@@ -18,7 +18,8 @@ public class PaymentController {
     private PaymentService paymentService;
 
     @PostMapping("/payment/create")
-    public CommonResult create(@Param("serial") Payment payment){
+    public CommonResult create(@RequestBody Payment payment){
+        System.out.println("ssss");
         int result = paymentService.create(payment);
         log.info("插入结果："+result);
         if (result > 0){
@@ -29,7 +30,7 @@ public class PaymentController {
     }
 
     @GetMapping("/payment/get/{id}")
-    public CommonResult getPaymentById(@PathVariable("id") Long id){
+    public CommonResult<Payment> getPaymentById(@PathVariable("id") Long id){
         Payment payment = paymentService.getPaymentById(id);
         log.info("查找结果："+payment);
         if (payment!=null){

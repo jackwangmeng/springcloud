@@ -10,6 +10,10 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -25,7 +29,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven" />
+        <option name="localRepository" value="D:\maven\springcloud" />
         <option name="mavenHome" value="E:/java/apache-maven-3.5.0-bin/apache-maven-3.5.0" />
         <option name="userSettingsFile" value="E:\java\apache-maven-3.5.0-bin\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
@@ -37,12 +41,14 @@
     </option>
   </component>
   <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1bo3fZll56ek1VWJutnM629RxIg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -59,12 +65,40 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/wm/springcloud" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\java\learning\springcloud\springcloud\cloud-api-commons\src\main\java\com\wm\springcloud" />
+      <recent name="F:\java\learning\springcloud\springcloud\cloud-consumer-order80\src\main\java\com\wm\springcloud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="hiddenConfigurations">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <set>
+              <option value="Eureka7002" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EurekaMain7002">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="springcloud" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,6 +118,58 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="Eureka7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wm.springcloud.Eureka7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wm.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wm.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wm.springcloud.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-payment8001" />
       <extension name="coverage">
@@ -99,9 +185,36 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain80" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
+        <item itemvalue="Spring Boot.EurekaMain7002" />
+        <item itemvalue="Spring Boot.Eureka7002" />
+        <item itemvalue="Spring Boot.EurekaMain7001" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.4036488" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -115,6 +228,11 @@
       <updated>1589284722524</updated>
       <workItem from="1589284726907" duration="5824000" />
       <workItem from="1589457801942" duration="6321000" />
+      <workItem from="1589467616281" duration="492000" />
+      <workItem from="1589507943480" duration="181000" />
+      <workItem from="1589508168003" duration="223000" />
+      <workItem from="1589508443133" duration="267000" />
+      <workItem from="1589508742256" duration="22571000" />
     </task>
     <servers />
   </component>
@@ -122,49 +240,77 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="904" y="96" key="#Project_Structure" timestamp="1589528587390">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="904" y="96" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589528587390" />
     <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1589463800951">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589463800951" />
-    <state width="1867" height="346" key="GridCell.Tab.0.bottom" timestamp="1589465718563">
+    <state x="1079" y="218" key="FileChooserDialogImpl" timestamp="1589520066508">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.0.center" timestamp="1589465718563">
+    <state x="1079" y="218" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589520066508" />
+    <state width="522" height="310" key="GridCell.Tab.0.bottom" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.0.left" timestamp="1589465718562">
+    <state width="522" height="310" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.0.center" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718562" />
-    <state width="1867" height="346" key="GridCell.Tab.0.right" timestamp="1589465718563">
+    <state width="522" height="310" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.0.left" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.1.bottom" timestamp="1589465718563">
+    <state width="522" height="310" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.0.right" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.1.center" timestamp="1589465718563">
+    <state width="522" height="310" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.1.bottom" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.1.left" timestamp="1589465718563">
+    <state width="522" height="310" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.1.center" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state width="1867" height="346" key="GridCell.Tab.1.right" timestamp="1589465718563">
+    <state width="522" height="310" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.1.left" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589465718563" />
-    <state x="779" y="78" width="1141" height="883" key="SettingsEditor" timestamp="1589465334110">
+    <state width="522" height="310" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.1.right" timestamp="1589550257503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="779" y="78" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589465334110" />
-    <state x="974" y="37" width="946" height="966" key="new project wizard" timestamp="1589458111978">
+    <state width="522" height="310" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589550257503" />
+    <state width="522" height="310" key="GridCell.Tab.2.bottom" timestamp="1589550058719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="974" y="37" width="946" height="966" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589458111978" />
+    <state width="522" height="310" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589550058719" />
+    <state width="522" height="310" key="GridCell.Tab.2.center" timestamp="1589550058719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="522" height="310" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589550058719" />
+    <state width="522" height="310" key="GridCell.Tab.2.left" timestamp="1589550058719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="522" height="310" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589550058719" />
+    <state width="522" height="310" key="GridCell.Tab.2.right" timestamp="1589550058719">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="522" height="310" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589550058719" />
+    <state x="941" y="97" key="Registry" timestamp="1589508224186">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="941" y="97" key="Registry/0.0.1920.1040@0.0.1920.1040" timestamp="1589508224186" />
+    <state x="779" y="78" width="1141" height="883" key="SettingsEditor" timestamp="1589528403226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="78" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589528403226" />
+    <state x="974" y="37" width="946" height="966" key="new project wizard" timestamp="1589547131418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="974" y="37" width="946" height="966" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589547131418" />
   </component>
 </project>
