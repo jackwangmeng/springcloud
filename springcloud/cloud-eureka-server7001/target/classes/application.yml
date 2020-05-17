@@ -2,6 +2,8 @@ server:
   port: 7001
 
 spring:
+#  application:
+#    name: cloud-eureka-server
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: org.gjt.mm.mysql.Driver
@@ -11,16 +13,29 @@ spring:
 
 eureka:
   instance:
-    hostname: eureka7001.com #eureka服务端的实例名称
+    hostname: eureka7001.com
   client:
-    register-with-eureka: false     #false表示不向注册中心注册自己。
-    fetch-registry: false     #false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检索服务
-    service-url:
-      #集群指向其它eureka
-      defaultZone: http://eureka7002.com:7002/eureka/
-      #单机就是7001自己
-      #defaultZone: http://eureka7001.com:7001/eureka/
-    #server:
-    #关闭自我保护机制，保证不可用服务被及时踢除
-    #enable-self-preservation: false
-    #eviction-interval-timer-in-ms: 2000
+    registerWithEureka: false # 是否注册到eureka服务，默认为true，当前已为eureka server，且单点eureka，故配置为false
+    fetchRegistry: false # eureka之间如果网络不稳定，客户端一般也会缓存了注册列表，因此eureka服务可以不缓存，我觉得更能确保eureka之间的一致。
+    serviceUrl:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  server:
+    enable-self-preservation: false
+    eviction-interval-timer-in-ms: 20000
+
+#eureka:
+#  instance:
+#    hostname: localhost
+#    prefer-ip-address: true
+#    lease-renewal-interval-in-seconds: 5
+#    lease-expiration-duration-in-seconds: 15
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://localhost:7001/eureka/
+#  server:
+#    enable-self-preservation: true
+#    eviction-interval-timer-in-ms: 60000
+
+
