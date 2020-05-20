@@ -1,4 +1,4 @@
-package com.wm.springcloud.controller;
+package com.wm.springcloud;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -9,15 +9,15 @@ import java.util.UUID;
 
 @RestController
 @Slf4j
-public class PaymentController {
+public class controllerPaymentController {
 
     @Value("${server.port}")
     private String serverPort;
 
-    @RequestMapping(value = "/payment/zk")
-    public String paymentzk()
+    @RequestMapping(value = "/payment/consul")
+    public String paymentConsul()
     {
-        return "springcloud with zookeeper: "+serverPort+"\t"+ UUID.randomUUID().toString();
+        return "springcloud with consul: "+serverPort+"\t"+ UUID.randomUUID().toString();
     }
 
 }
