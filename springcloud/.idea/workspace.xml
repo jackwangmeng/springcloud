@@ -27,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -194,7 +197,6 @@
       <list>
         <item itemvalue="Spring Boot.OrderConsulMain80" />
         <item itemvalue="Spring Boot.PaymentMain8006" />
-        <item itemvalue="Spring Boot.OrderMain80 (1)" />
         <item itemvalue="Spring Boot.PaymentMain8004" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
       </list>
@@ -210,11 +212,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -244,6 +241,9 @@
       <workItem from="1589706093717" duration="1239000" />
       <workItem from="1589773775455" duration="35000" />
       <workItem from="1589966663487" duration="1862000" />
+      <workItem from="1590031785379" duration="27000" />
+      <workItem from="1590302576043" duration="22000" />
+      <workItem from="1590302613070" duration="6558000" />
     </task>
     <servers />
   </component>
@@ -255,10 +255,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="904" y="96" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1589622968922" />
-    <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1589463800951">
+    <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser" timestamp="1590327819933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589463800951" />
+    <state x="1184" y="159" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590327819933" />
+    <state x="922" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590327872284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="426" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590327872284" />
     <state x="1079" y="218" key="FileChooserDialogImpl" timestamp="1589680090427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -319,9 +323,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="78" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589609455536" />
+    <state x="1034" y="173" width="778" height="694" key="find.popup" timestamp="1590304105243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1034" y="173" width="778" height="694" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590304105243" />
     <state x="974" y="37" width="946" height="966" key="new project wizard" timestamp="1589967415528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="974" y="37" width="946" height="966" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1589967415528" />
+    <state x="1002" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1590304117615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1002" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590304117615" />
   </component>
 </project>
